@@ -100,7 +100,7 @@ export default function Sidebar() {
         <div className="mb-12">
           <span className="mx-4 font-medium text-white text-lg ">
             <button className="">
-              <a href="https://animesh239.github.io/gtatask1/"  className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
+              <a href="https://github.com/Animesh239/gtatask1"  className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
             </button>
           </span>
         </div>
