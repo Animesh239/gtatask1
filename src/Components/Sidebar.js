@@ -8,7 +8,7 @@ export default function Sidebar() {
         <div className="mt-20 ">
           <nav>
             <a
-              className="flex items-center px-4 py-2 mt-5 text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+              className="flex items-center px-4 py-2 mt-5 text-white md:text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="/"
             >
               <svg
@@ -27,7 +27,7 @@ export default function Sidebar() {
               <span className="mx-4 font-medium">Dashboard</span>
             </a>
             <a
-              className="flex items-center px-4 py-2 mt-5 text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+              className="flex items-center px-4 py-2 mt-5 text-white md:text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="/"
             >
               <svg
@@ -52,7 +52,7 @@ export default function Sidebar() {
               <span className="mx-4 font-medium">Profile</span>
             </a>
             <a
-              className="flex items-center px-4 py-2 mt-5 text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+              className="flex items-center px-4 py-2 mt-5 text-white md:text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="/"
             >
               <svg
@@ -71,7 +71,7 @@ export default function Sidebar() {
               <span className="mx-4 font-medium">Cards</span>
             </a>
             <a
-              className="flex items-center px-4 py-2 mt-5 text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+              className="flex items-center px-4 py-2 mt-5 text-white md:text-gray-600  duration-300  rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="/"
             >
               <svg
@@ -100,7 +100,7 @@ export default function Sidebar() {
         <div className="mb-12">
           <span className="mx-4 font-medium text-white text-lg ">
             <button className="">
-              <a href="https://github.com/Animesh239/gtatask1"  className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
+              <a href="https://github.com/Animesh239/gtatask1/"  className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
             </button>
           </span>
         </div>
