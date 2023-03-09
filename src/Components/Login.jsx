@@ -4,15 +4,15 @@ import With from './With'
 function Login() {
   return (
     <div className='flex justify-center flex-col h-screen space-y-5'>
-       <form action="" className='space-y-5 h-auto m-auto p-9 border-2 rounded-xl border-white md:backdrop-blur-xl backdrop-blur-sm'>
+       <form action="" className='space-y-5 h-auto m-auto p-9 border-2 rounded-xl border-none md:backdrop-contrast-125 backdrop-contrast-150 md:border-white md:backdrop-blur-sm backdrop-blur-sm'>
        <center>
             <h1 className='text-white text-[30px] font-bold '>LOGIN HERE</h1>
         </center>
         <center>
-            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="email" placeholder='Enter Email' required/>
+            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="email" placeholder='Enter Email' />
         </center>
         <center>
-            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="password" placeholder='Enter Password' required/>
+            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="password" placeholder='Enter Password' />
         </center>
         <center>
         <div className=' md:relative md:left-[-120px] md:top-[-10px]  '>
