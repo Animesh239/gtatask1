@@ -100,7 +100,7 @@ export default function Sidebar() {
         <div className="mb-12">
           <span className="mx-4 font-medium text-white text-lg ">
             <button className="">
-              <a href="https://github.com/Animesh239/gtatask1/"  onclick="window.open('https://github.com/Animesh239/gtatask1/', '_blank';)" className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
+              <a href="https://github.com/Animesh239/gtatask1/"  onclick="window.open('https://github.com/Animesh239/gtatask1/', '_self';)" className="flex space-x-3 hover:text-[#f34f29] "><span className=" text-xl">Get Source Code </span><Github size={30}/> </a>
             </button>
           </span>
         </div>

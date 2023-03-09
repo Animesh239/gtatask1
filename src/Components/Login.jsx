@@ -3,16 +3,17 @@ import With from './With'
 
 function Login() {
   return (
-    <div className='flex justify-center flex-col h-screen space-y-5'>
-       <form action="" className='space-y-5 h-auto m-auto p-9 border-2 rounded-xl border-none md:backdrop-contrast-125 backdrop-contrast-150 md:border-white md:backdrop-blur-sm backdrop-blur-sm'>
+    <div className='flex justify-center  h-screen '>
+        <div className='space-y-5 flex flex-col h-auto m-auto p-9 border-2 rounded-xl border-none md:backdrop-contrast-125 backdrop-contrast-150 md:border-white md:backdrop-blur-sm backdrop-blur-sm'>
+       <form action="" className='space-y-5 px-9'>
        <center>
             <h1 className='text-white text-[30px] font-bold '>LOGIN HERE</h1>
         </center>
         <center>
-            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="email" placeholder='Enter Email' />
+            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="email" placeholder='Enter Email' required />
         </center>
         <center>
-            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="password" placeholder='Enter Password' />
+            <input className='w-64 md:w-96 p-2 px-4 text-xl bg-transparent border border-white outline-none rounded-lg text-white' type="password" placeholder='Enter Password' required />
         </center>
         <center>
         <div className=' md:relative md:left-[-120px] md:top-[-10px]  '>
@@ -23,11 +24,14 @@ function Login() {
         <center >
             <button className='md:w-64 w-52 p-2 px-3  border border-white outline-none rounded-lg hover:font-bold text-white hover:text-black hover:bg-white'><p className='text-lg'>Submit</p></button>
         </center>
-        <center className='text-white text-3xl '>or</center>
+        </form>
+        <div>
+        <center className='text-white text-3xl'>or</center>
+        </div>
        <center>
        <With/>
        </center>
-       </form>
+       </div>
     </div>
   )
 }
